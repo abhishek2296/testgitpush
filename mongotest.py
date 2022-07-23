@@ -12,3 +12,5 @@ d = {
 db1 = client["mongodb"]
 coll = db1['test1']
 coll.insert_one(d)
+
+print("abcd")
